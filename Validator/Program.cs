@@ -92,14 +92,15 @@ namespace Validator
             {
                 reverse += palindrome[i];
             }
-            
+
             if (palindrome == reverse)
             {
                 Console.WriteLine("Congrats! You got it!");
-            } 
+            }
             else
             {
-                Console.WriteLine("You need more practice");            }
+                Console.WriteLine("You need more practice");
+            }
 
         }
     }
